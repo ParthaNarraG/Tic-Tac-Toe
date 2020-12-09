@@ -1,0 +1,39 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: #D3D3D3;
+}
+
+.wrapper .centeredBlock {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.wrapper .centeredBlock #result {
+  -webkit-transition: all ease 8s;
+  transition: all ease 8s;
+}
+
+.wrapper .block {
+  cursor: pointer;
+  height: 200px;
+  width: 400px;
+  background: #1D1D27;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.wrapper .block i {
+  display: none;
+  -webkit-transition: all ease 5s;
+  transition: all ease 5s;
+}
+/*# sourceMappingURL=chat.css.map */
